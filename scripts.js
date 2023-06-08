@@ -42,3 +42,4 @@ function renderTime(){
         
         setTimeout("renderTime()", 1000);
 }
+renderTime();

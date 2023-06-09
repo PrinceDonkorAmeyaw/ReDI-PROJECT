@@ -124,14 +124,26 @@ p{
     padding: 10px;
 }
 
+.About img{
+    width: 70%;
+
+}
+
 / ----- Offices ----- /
 
 .Offices{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
 
+.Offices-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 
 }
     

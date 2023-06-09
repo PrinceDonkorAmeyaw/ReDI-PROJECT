@@ -3,6 +3,11 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guide for New TUM Students Arriving in Munich</title>
+    <script>
+        function displayDate(){
+            document.getElementById(showDate).innerHTML = Date();
+        }
+    </script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +16,10 @@ rel="stylesheet">
 
 </head>
 <body>
-    
+    <button type="button" onclick="displayDate()">showDate</button>
+    <p id="showDate">
+        Mon| June 12 2017| 20:05 CEST
+    </p>
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/th (2).jpg" alt=""></a>
